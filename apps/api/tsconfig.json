@@ -1,0 +1,10 @@
+{
+  "extends": "@leaner/config-typescript/nestjs.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "removeComments": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist", "test"]
+}

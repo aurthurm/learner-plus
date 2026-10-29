@@ -1,0 +1,22 @@
+{
+  "name": "whatsapp",
+  "version": "0.0.1",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.19.14",
+    "@leaner/types": "workspace:*",
+    "hono": "^4.12.21"
+  },
+  "devDependencies": {
+    "@leaner/config-typescript": "workspace:*",
+    "@types/node": "^20.11.17",
+    "tsx": "^4.7.1",
+    "typescript": "^5.8.3"
+  }
+}
